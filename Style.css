@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Chivo:900);
+
+html {
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/5383/Nature-HD-Pictures.jpg");
+	background-size: cover;
+	font-family: "Chivo", sans-serif;
+	width: 100vw;
+	width: 100svw;
+	height: 100vh;
+	height: 100svh;
+	font-size: 62.5%;
+}
+body {
+	display: grid;
+	place-items: center;
+	width: 100vw;
+	width: 100svw;
+	height: 100vh;
+	height: 100svh;
+}
+h1 {
+	font-size: 20em;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	color: #eee;
+	mask-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/5383/splatter-mask_1_1.png");
+}
